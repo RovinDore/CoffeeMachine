@@ -9,8 +9,7 @@ public class CoffeeMachine {
     private int hasBeans;
     private int hasCups;
     private boolean running;
-
-    Scanner scan = new Scanner(System.in);
+    private final Scanner scan = new Scanner(System.in);
 
     CoffeeMachine(){
         this.money = 550;
